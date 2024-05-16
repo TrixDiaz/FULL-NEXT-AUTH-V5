@@ -9,7 +9,7 @@ import authConfig from "@/auth.config";
 
 export const {
     auth,
-    handlers: {GET, POST},
+    handlers,
     signIn,
     signOut} = NextAuth({
     pages: {
